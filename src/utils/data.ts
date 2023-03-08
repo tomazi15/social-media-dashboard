@@ -1,0 +1,118 @@
+import {
+  LargeSocialMediaCardDataType,
+  SmallSocialMediaCardDataType,
+} from "../types";
+
+export const SMALL_CARD_DATA: SmallSocialMediaCardDataType = {
+  data: [
+    {
+      id: 0,
+      socialPlatform: "facebook",
+      icon: "facebookLogo",
+      statisticsTitle: "Page Views",
+      statistics: "87",
+      dailyStatistics: "3",
+    },
+    {
+      id: 1,
+      socialPlatform: "facebook",
+      icon: "facebookLogo",
+      statisticsTitle: "Likes",
+      statistics: "52",
+      dailyStatistics: "-2",
+    },
+    {
+      id: 2,
+      socialPlatform: "instagram",
+      icon: "instagramLogo",
+      statisticsTitle: "Likes",
+      statistics: "5462",
+      dailyStatistics: "2257",
+    },
+    {
+      id: 3,
+      socialPlatform: "instagram",
+      icon: "instagramLogo",
+      statisticsTitle: "Profile Views",
+      statistics: "52K",
+      dailyStatistics: "1375",
+    },
+    {
+      id: 4,
+      socialPlatform: "twitter",
+      icon: "twitterLogo",
+      statisticsTitle: "Retweets",
+      statistics: "117",
+      dailyStatistics: "303",
+    },
+    {
+      id: 5,
+      socialPlatform: "twitter",
+      icon: "twitterLogo",
+      statisticsTitle: "Likes",
+      statistics: "507",
+      dailyStatistics: "553",
+    },
+    {
+      id: 6,
+      socialPlatform: "youtube",
+      icon: "youtubeLogo",
+      statisticsTitle: "Likes",
+      statistics: "107",
+      dailyStatistics: "-19",
+    },
+    {
+      id: 7,
+      socialPlatform: "youtube",
+      icon: "youtubeLogo",
+      statisticsTitle: "Total Views",
+      statistics: "1407",
+      dailyStatistics: "-12",
+    },
+  ],
+};
+
+export const LARGE_CARD_DATA: LargeSocialMediaCardDataType = {
+  data: [
+    {
+      id: 0,
+      socialPlatform: "facebook",
+      icon: "facebookLogo",
+      user: "@nathanf",
+      followersStatistics: "1987",
+      followersTitle: "Followers",
+      dailyStatistics: "12",
+      borderColor: "border-[#198ff5]",
+    },
+    {
+      id: 1,
+      socialPlatform: "twitter",
+      icon: "twitterLogo",
+      user: "@nathanf",
+      followersStatistics: "1044",
+      followersTitle: "Followers",
+      dailyStatistics: "99",
+      borderColor: "border-[#1ca0f2]",
+    },
+    {
+      id: 2,
+      socialPlatform: "instagram",
+      icon: "instagramLogo",
+      user: "@realnathanf",
+      followersStatistics: "11K",
+      followersTitle: "Followers",
+      dailyStatistics: "1099",
+      borderColor: "border-[#df4996]",
+    },
+    {
+      id: 3,
+      socialPlatform: "youtube",
+      icon: "youtubeLogo",
+      user: "Nathan F.",
+      followersStatistics: "8239",
+      followersTitle: "Subscribers",
+      dailyStatistics: "-144",
+      borderColor: "border-[#c4032a]",
+    },
+  ],
+};
