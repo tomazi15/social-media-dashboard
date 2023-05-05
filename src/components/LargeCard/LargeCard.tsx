@@ -13,7 +13,7 @@ const LargeCard: FC<LargeCardPropsType> = ({
         return (
           <div
             key={card.id}
-            className={`flex flex-col justify-center bg-cardBg h-[25vh] w-full rounded  border-t-4 ${
+            className={`flex flex-col justify-center  bg-cardBg h-[23vh] w-full rounded  border-t-4 ${
               card.borderColor
             } ${
               isLightMode
@@ -32,9 +32,9 @@ const LargeCard: FC<LargeCardPropsType> = ({
               </p>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <p className="text-6xl font-bold">{card.followersStatistics}</p>
+              <p className="text-4xl font-bold">{card.followersStatistics}</p>
               <p
-                className={`text-xs uppercase font-normal tracking-[0.3rem] ${
+                className={`text-[0.6rem] uppercase font-normal tracking-[0.2rem] ${
                   isLightMode ? "text-cardLightTextColor" : "text-textBlue"
                 }`}
               >

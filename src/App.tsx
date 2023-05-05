@@ -9,7 +9,7 @@ const App = (): JSX.Element => {
 
   return (
     <div
-      className={`flex flex-col items-center p-4 gap-4  ${
+      className={`flex flex-col items-center p-4 md:px-28 md:pt-6 gap-4 md:h-screen  ${
         isLightMode ? "bg-white" : "bg-bottomBg"
       }`}
     >
@@ -17,11 +17,11 @@ const App = (): JSX.Element => {
         setIsLightMode={setIsLightMode}
         isLightMode={isLightMode}
       />
-      <div className="md:flex w-full space-y-4 md:space-y-0 md:gap-4 pb-8">
+      <div className="md:flex w-full space-y-4 md:space-y-0 md:gap-6 pb-8 md:pb-3">
         <LargeCard cardData={LARGE_CARD_DATA} isLightMode={isLightMode} />
       </div>
 
-      <div className="md:flex md:flex-col w-full md:h-screen">
+      <div className="md:flex md:flex-col w-full">
         <div className="md:flex pb-4">
           <h1
             className={` text-2xl font-bold ${
@@ -31,7 +31,7 @@ const App = (): JSX.Element => {
             Overview - Today
           </h1>
         </div>
-        <div className="md:grid md:grid-rows-2 md:grid-flow-col md:gap-4 md:space-y-0 space-y-4">
+        <div className="md:grid md:grid-rows-2 md:grid-flow-col md:gap-6 md:space-y-0 space-y-4">
           <SmallCard cardData={SMALL_CARD_DATA} isLightMode={isLightMode} />
         </div>
       </div>

@@ -11,9 +11,9 @@ const DashboardHeader: FC<DashboardHeaderTypes> = ({
 
   return (
     <div className="flex flex-col w-full mb-4 md:justify-center">
-      <div className="">
+      <div>
         <h1
-          className={` text-2xl font-bold ${
+          className={`text-2xl font-bold ${
             isLightMode ? "text-black" : "text-white"
           }`}
         >
@@ -34,7 +34,7 @@ const DashboardHeader: FC<DashboardHeaderTypes> = ({
         }`}
       />
 
-      <div className="flex items-center justify-between md:justify-end ">
+      <div className="flex items-center justify-between md:justify-end">
         <span
           className={`text-xs  font-semibold md:mr-2 ${
             isLightMode ? "text-cardLightTextColor" : "text-textBlue"
